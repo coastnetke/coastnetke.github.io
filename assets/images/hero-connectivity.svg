@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="720" viewBox="0 0 760 720" role="img" aria-labelledby="title desc">
+  <title id="title">Connected home signal</title>
+  <desc id="desc">An abstract pattern of signal waves and connected points in green, gold, and navy.</desc>
+  <defs>
+    <radialGradient id="g" cx="50%" cy="45%" r="55%">
+      <stop offset="0" stop-color="#1b7568"/>
+      <stop offset=".55" stop-color="#103d47"/>
+      <stop offset="1" stop-color="#071a24"/>
+    </radialGradient>
+    <filter id="blur"><feGaussianBlur stdDeviation="18"/></filter>
+  </defs>
+  <rect width="760" height="720" fill="url(#g)"/>
+  <circle cx="380" cy="300" r="265" fill="none" stroke="#9fe0d1" stroke-opacity=".12" stroke-width="1"/>
+  <circle cx="380" cy="300" r="205" fill="none" stroke="#9fe0d1" stroke-opacity=".18" stroke-width="1"/>
+  <circle cx="380" cy="300" r="142" fill="none" stroke="#9fe0d1" stroke-opacity=".24" stroke-width="1"/>
+  <path d="M195 290c104-101 266-101 370 0M254 351c71-66 181-66 252 0M325 415c31-28 79-28 110 0" fill="none" stroke="#f6c445" stroke-width="20" stroke-linecap="round"/>
+  <circle cx="380" cy="475" r="19" fill="#f6c445"/>
+  <g fill="#9fe0d1">
+    <circle cx="141" cy="179" r="7"/><circle cx="622" cy="154" r="5"/><circle cx="645" cy="428" r="8"/><circle cx="128" cy="460" r="5"/>
+  </g>
+  <g stroke="#9fe0d1" stroke-opacity=".4" fill="none">
+    <path d="M141 179L236 236M622 154l-82 71M645 428l-117-20M128 460l119-42"/>
+  </g>
+  <ellipse cx="380" cy="648" rx="220" ry="35" fill="#9fe0d1" opacity=".14" filter="url(#blur)"/>
+</svg>
